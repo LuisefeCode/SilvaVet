@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veterinaria profesional - Cuidamos de tu mascota con amor y dedicación. Servicios veterinarios completos, urgencias 24h, y más.">
+    <meta name="keywords" content="veterinaria, mascotas, perros, gatos, cuidado animal, clínica veterinaria">
+    <title>Veterinaria - Cuidamos de tu Mascota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navegación -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="#inicio">
+                        <img src="images/logo.png" alt="Logo Veterinaria" class="logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <span class="logo-text" style="display: none;">🐾 Veterinaria</span>
+                    </a>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#equipo" class="nav-link">Equipo</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#galeria" class="nav-link">Galería</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    <li><a href="#reservar" class="nav-link btn-reservar">Reservar Cita</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero / Inicio -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Cuidamos de tu Mascota con Amor y Dedicación</h1>
+                <p class="hero-subtitle">Servicios veterinarios profesionales para el bienestar de tu mejor amigo</p>
+                <div class="hero-buttons">
+                    <a href="#reservar" class="btn btn-primary">Reservar Cita</a>
+                    <a href="#servicios" class="btn btn-secondary">Nuestros Servicios</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Ofrecemos una amplia gama de servicios para el cuidado integral de tu mascota</p>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icon">🏥</div>
+                    <h3>Consulta General</h3>
+                    <p>Revisiones completas y diagnósticos precisos para mantener a tu mascota saludable.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">💉</div>
+                    <h3>Vacunación</h3>
+                    <p>Programas de vacunación personalizados según la edad y necesidades de tu mascota.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">🔬</div>
+                    <h3>Laboratorio Clínico</h3>
+                    <p>Análisis de sangre, orina y otros estudios para un diagnóstico preciso.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">🦷</div>
+                    <h3>Odontología</h3>
+                    <p>Limpieza dental, extracciones y cuidado bucal para mantener una sonrisa saludable.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">⚕️</div>
+                    <h3>Cirugía</h3>
+                    <p>Procedimientos quirúrgicos con tecnología de vanguardia y equipo especializado.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">🚨</div>
+                    <h3>Urgencias 24h</h3>
+                    <p>Atención de emergencias las 24 horas para cuando tu mascota más lo necesita.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">🐕</div>
+                    <h3>Peluquería</h3>
+                    <p>Servicios de estética y cuidado del pelaje para que tu mascota luzca hermosa.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">🏥</div>
+                    <h3>Hospitalización</h3>
+                    <p>Instalaciones modernas para el cuidado y recuperación de tu mascota.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo -->
+    <section class="equipo" id="equipo">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <p class="section-subtitle">Profesionales altamente capacitados y apasionados por el cuidado animal</p>
+            <div class="equipo-grid">
+                <div class="equipo-card">
+                    <div class="equipo-image">
+                        <div class="equipo-placeholder">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. [Nombre]</h3>
+                    <p class="equipo-rol">Veterinario Principal</p>
+                    <p class="equipo-desc">Especialista en medicina general con más de 10 años de experiencia.</p>
+                </div>
+                <div class="equipo-card">
+                    <div class="equipo-image">
+                        <div class="equipo-placeholder">👩‍⚕️</div>
+                    </div>
+                    <h3>Dra. [Nombre]</h3>
+                    <p class="equipo-rol">Veterinaria Especialista</p>
+                    <p class="equipo-desc">Especializada en cirugía y medicina interna.</p>
+                </div>
+                <div class="equipo-card">
+                    <div class="equipo-image">
+                        <div class="equipo-placeholder">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. [Nombre]</h3>
+                    <p class="equipo-rol">Veterinario</p>
+                    <p class="equipo-desc">Experto en medicina preventiva y cuidado de animales pequeños.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
+            <p class="section-subtitle">La satisfacción de nuestros pacientes y sus dueños es nuestra prioridad</p>
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"Excelente atención y profesionalismo. Mi perro recibió el mejor cuidado posible. Muy recomendado."</p>
+                    <p class="testimonio-author">- María González</p>
+                </div>
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"El equipo es muy amable y dedicado. Siempre están disponibles cuando los necesitamos. Gracias por cuidar de nuestra mascota."</p>
+                    <p class="testimonio-author">- Juan Pérez</p>
+                </div>
+                <div class="testimonio-card">
+                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonio-text">"Instalaciones modernas y limpias. Los veterinarios son muy profesionales y explican todo claramente."</p>
+                    <p class="testimonio-author">- Ana Martínez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Nuestras Instalaciones</h2>
+            <p class="section-subtitle">Conoce nuestras modernas instalaciones diseñadas para el bienestar de tu mascota</p>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 1</div>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 2</div>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 3</div>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 4</div>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 5</div>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-placeholder">📷 Imagen 6</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog / Noticias -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog y Noticias</h2>
+            <p class="section-subtitle">Mantente informado sobre el cuidado de tu mascota</p>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">📰</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">15 Enero 2024</span>
+                        <h3>Título del Artículo</h3>
+                        <p>Resumen del artículo sobre cuidados veterinarios, consejos y recomendaciones para el bienestar de tu mascota...</p>
+                        <a href="#" class="blog-link">Leer más →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">📰</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">10 Enero 2024</span>
+                        <h3>Título del Artículo</h3>
+                        <p>Resumen del artículo sobre cuidados veterinarios, consejos y recomendaciones para el bienestar de tu mascota...</p>
+                        <a href="#" class="blog-link">Leer más →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">📰</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">5 Enero 2024</span>
+                        <h3>Título del Artículo</h3>
+                        <p>Resumen del artículo sobre cuidados veterinarios, consejos y recomendaciones para el bienestar de tu mascota...</p>
+                        <a href="#" class="blog-link">Leer más →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservar Cita -->
+    <section class="reservar" id="reservar">
+        <div class="container">
+            <div class="reservar-content">
+                <h2 class="section-title">Reserva tu Cita</h2>
+                <p class="section-subtitle">Agenda una cita con nuestros profesionales usando nuestro sistema de reservas</p>
+                <div class="calendar-container">
+                    <!-- Reemplazar con el enlace o iframe de tu Google Calendar -->
+                    <a href="TU_ENLACE_DE_GOOGLE_CALENDAR_AQUI" target="_blank" class="btn btn-primary btn-large">
+                        📅 Reservar Cita en Google Calendar
+                    </a>
+                    <p class="calendar-note">Haz clic en el botón para abrir el calendario y seleccionar tu fecha y hora preferida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Estamos aquí para ayudarte. Contáctanos o visítanos</p>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Dirección</h3>
+                            <p>Calle Principal 123<br>Ciudad, País</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contacto@veterinaria.com">contacto@veterinaria.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-content">
+                            <h3>Horarios</h3>
+                            <p>Lunes - Viernes: 9:00 AM - 7:00 PM<br>
+                            Sábados: 9:00 AM - 2:00 PM<br>
+                            Domingos: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Veterinaria</h3>
+                    <p>Cuidamos de tu mascota con amor y dedicación profesional.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘 Facebook</a>
+                        <a href="#" aria-label="Instagram">📷 Instagram</a>
+                        <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Calle Principal 123</p>
+                    <p>📞 +1 (234) 567-890</p>
+                    <p>✉️ contacto@veterinaria.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Veterinaria. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
