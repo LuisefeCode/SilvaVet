@@ -74,55 +74,71 @@
         </div>
     </section>
 
-    <!-- Servicios -->
+    <!-- ============================================
+         SECCIÓN DE SERVICIOS
+         ============================================
+         Esta sección muestra los servicios principales que ofrece la clínica veterinaria.
+         Se presenta en formato de grid (cuadrícula) con tarjetas individuales para cada servicio.
+         Cada tarjeta contiene un ícono, título y descripción del servicio.
+    -->
     <section class="servicios" id="servicios">
         <div class="container">
+            <!-- Título principal de la sección -->
             <h2 class="section-title">Nuestros Servicios</h2>
+            
+            <!-- Subtítulo descriptivo que explica el propósito de la sección -->
             <p class="section-subtitle">Ofrecemos una amplia gama de servicios para el cuidado integral de tu mascota</p>
+            
+            <!-- Grid contenedor de todas las tarjetas de servicios
+                 Este grid se adapta responsivamente: 3 columnas en desktop, 2 en tablet, 1 en móvil -->
             <div class="servicios-grid">
+                
+                <!-- Tarjeta de servicio 1: Consulta General -->
                 <div class="servicio-card">
-                    <div class="servicio-icon">🏥</div>
-                    <h3>Consulta General</h3>
-                    <p>Revisiones completas y diagnósticos precisos para mantener a tu mascota saludable.</p>
+                    <div class="servicio-icon">🐕</div> <!-- Ícono emoji que representa el servicio -->
+                    <h3>Consulta General</h3> <!-- Título del servicio -->
+                    <p>Revisiones completas y diagnósticos precisos para mantener a tu mascota saludable.</p> <!-- Descripción del servicio -->
                 </div>
+                
+                <!-- Tarjeta de servicio 2: Vacunación -->
                 <div class="servicio-card">
-                    <div class="servicio-icon">💉</div>
+                    <div class="servicio-icon">💉</div> <!-- Ícono de jeringa para representar vacunación -->
                     <h3>Vacunación</h3>
                     <p>Programas de vacunación personalizados según la edad y necesidades de tu mascota.</p>
                 </div>
+                
+                <!-- Tarjeta de servicio 3: Laboratorio Clínico -->
                 <div class="servicio-card">
-                    <div class="servicio-icon">🔬</div>
+                    <div class="servicio-icon">🔬</div> <!-- Ícono de microscopio para análisis clínicos -->
                     <h3>Laboratorio Clínico</h3>
                     <p>Análisis de sangre, orina y otros estudios para un diagnóstico preciso.</p>
                 </div>
+                
+                
+                <!-- Tarjeta de servicio 5: Cirugía -->
                 <div class="servicio-card">
-                    <div class="servicio-icon">🦷</div>
-                    <h3>Odontología</h3>
-                    <p>Limpieza dental, extracciones y cuidado bucal para mantener una sonrisa saludable.</p>
-                </div>
-                <div class="servicio-card">
-                    <div class="servicio-icon">⚕️</div>
+                    <div class="servicio-icon">⚕️</div> <!-- Símbolo médico (caduceo) para procedimientos quirúrgicos -->
                     <h3>Cirugía</h3>
                     <p>Procedimientos quirúrgicos con tecnología de vanguardia y equipo especializado.</p>
                 </div>
+                
+                <!-- Tarjeta de servicio 6: Urgencias-->
                 <div class="servicio-card">
-                    <div class="servicio-icon">🚨</div>
-                    <h3>Urgencias 24h</h3>
-                    <p>Atención de emergencias las 24 horas para cuando tu mascota más lo necesita.</p>
+                    <div class="servicio-icon">🚨</div> <!-- Ícono de sirena de emergencia -->
+                    <h3>Urgencias </h3>
+                    <p>Atención de emergencias las lunes a viernes 09:00 a 12:30 - 15:00 a 18:30 y sabados 10:00 a 13:00 .</p>
                 </div>
+                
+                <!-- Tarjeta de servicio 8: Hospitalización -->
                 <div class="servicio-card">
-                    <div class="servicio-icon">🐕</div>
-                    <h3>Peluquería</h3>
-                    <p>Servicios de estética y cuidado del pelaje para que tu mascota luzca hermosa.</p>
-                </div>
-                <div class="servicio-card">
-                    <div class="servicio-icon">🏥</div>
+                    <div class="servicio-icon">🏥</div> <!-- Ícono de hospital para instalaciones de internación -->
                     <h3>Hospitalización</h3>
                     <p>Instalaciones modernas para el cuidado y recuperación de tu mascota.</p>
                 </div>
-            </div>
-        </div>
-    </section>
+                
+            </div> <!-- Fin del grid de servicios -->
+        </div> <!-- Fin del contenedor -->
+    </section> <!-- Fin de la sección de servicios -->
 
     <!-- Equipo -->
     <section class="equipo" id="equipo">
@@ -134,25 +150,9 @@
                     <div class="equipo-image">
                         <div class="equipo-placeholder">👨‍⚕️</div>
                     </div>
-                    <h3>Dr. [Nombre]</h3>
+                    <h3>Dr. Matías Silva Morovic</h3>
                     <p class="equipo-rol">Veterinario Principal</p>
-                    <p class="equipo-desc">Especialista en medicina general con más de 10 años de experiencia.</p>
-                </div>
-                <div class="equipo-card">
-                    <div class="equipo-image">
-                        <div class="equipo-placeholder">👩‍⚕️</div>
-                    </div>
-                    <h3>Dra. [Nombre]</h3>
-                    <p class="equipo-rol">Veterinaria Especialista</p>
-                    <p class="equipo-desc">Especializada en cirugía y medicina interna.</p>
-                </div>
-                <div class="equipo-card">
-                    <div class="equipo-image">
-                        <div class="equipo-placeholder">👨‍⚕️</div>
-                    </div>
-                    <h3>Dr. [Nombre]</h3>
-                    <p class="equipo-rol">Veterinario</p>
-                    <p class="equipo-desc">Experto en medicina preventiva y cuidado de animales pequeños.</p>
+                    <p class="equipo-desc">Más de 10 años de experiencia en cirugía, medicina preventiva y atención integral. Enfoque cercano y profesional.</p>
                 </div>
             </div>
         </div>
@@ -379,6 +379,4 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-
-
 

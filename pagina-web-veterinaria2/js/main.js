@@ -163,3 +163,27 @@ if ('loading' in HTMLImageElement.prototype) {
     script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
     document.body.appendChild(script);
 }
+
+// Carrusel automático del hero
+document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    
+    // Función para cambiar de slide
+    function nextSlide() {
+        // Remover clase active del slide actual
+        slides[currentSlide].classList.remove('active');
+        
+        // Avanzar al siguiente slide
+        currentSlide = (currentSlide + 1) % totalSlides;
+        
+        // Agregar clase active al nuevo slide
+        slides[currentSlide].classList.add('active');
+    }
+    
+    // Iniciar el carrusel automático (cambia cada 5 segundos)
+    if (slides.length > 0) {
+        setInterval(nextSlide, 5000);
+    }
+});
